@@ -17,25 +17,7 @@ LOG_CHANNEL = BROADCAST_CHANNEL
 
 db = Database(DB_URL, SESSION)
 
-PHOTO=[
-"https://telegra.ph/file/ccfc078dda80f6edf08ba.jpg",
-"https://telegra.ph/file/7109948b2131b4f7e47de.jpg",
-"https://telegra.ph/file/ec0ed4cb98c0724830ad1.jpg",
-"https://telegra.ph/file/9283f518d80bbe2e0df68.jpg",
-"https://telegra.ph/file/3903f237ac3b765931341.jpg",
-"https://telegra.ph/file/3d6ffdbc2f343167700cc.jpg",
-"https://telegra.ph/file/53615247ec9e8fa9ade5b.jpg",
-"https://telegra.ph/file/301b2ab06d3fe44f26415.jpg",
-"https://telegra.ph/file/aec63d37bec10543b4716.jpg",
-"https://telegra.ph/file/6fe46c1171bb22f808e28.jpg",
-"https://telegra.ph/file/c15b2640cf4f324029977.jpg",
-"https://telegra.ph/file/57a3dd4f4b9b1e2be785f.jpg",
-"https://telegra.ph/file/6ab9eb8b562c52b344c42.jpg",
-"https://telegra.ph/file/ddb1805d39a9900cfa7fc.jpg",
-"https://telegra.ph/file/2ef4f7f7c45dbe74e0a6c.jpg",
-"https://telegra.ph/file/e6a7b959ae96141db22b9.jpg",
 
-]
 
 @Client.on_message(filters.command("start"))
 async def start(bot, message):
@@ -133,7 +115,6 @@ async def start(bot, message):
         await message.reply_text(
             START_MSG,
             parse_mode="Markdown",
-            chat_id=update.chat.id,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                [[
@@ -142,23 +123,7 @@ async def start(bot, message):
                ]]
             )
         )
-        await bot.send_photo(
-            
-        chat_id=update.chat.id,
 
-        photo=random.choice(PHOTO),
-
-        caption=Commands.START_MSG.format(
-
-                
-
-        reply_markup=reply_markup,
-
-        parse_mode="html",
-
-        reply_to_message_id=update.message_id
-
-    )
         StopPropagation
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
