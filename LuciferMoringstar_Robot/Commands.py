@@ -87,8 +87,17 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🎖 DEPLOY YOURS 🎖', url=f'{TUTORIAL}')
-                    ]
+                            InlineKeyboardButton
+                                (
+                                    '🎖 Join our Group 🎖', url="https://t.me/Cinemahub182"
+                                )
+                        ],
+                        [
+                            InlineKeyboardButton
+                                (
+                                    '🧩 Share Group 🧩', url="https://t.me/share/url?url=https://t.me/Cinemahub182"
+                                )
+                        ]
                     ]
                 await bot.send_cached_media(
                     chat_id=message.from_user.id,
