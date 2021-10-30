@@ -147,7 +147,7 @@ async def start(bot, message):
 
         photo=random.choice(PHOTO),
 
-        caption=START_MSG.format(
+        caption=Commands.START_MSG.format(
 
                 update.from_user.first_name),
 
