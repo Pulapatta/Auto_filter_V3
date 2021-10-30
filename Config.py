@@ -35,7 +35,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Messages
 default_start_msg = """
- ꜱᴏᴏʀy ᴅᴜᴅᴇ....❗️❗️\n \nɪ ᴀᴍ ᴡᴏʀᴋ ᴏɴʟʏ ꜰᴏʀ ᴍʏ ʙᴏꜱꜱ\n \n ᴅᴏ ɴᴏᴛ ꜰʟᴏᴏᴅ ᴍᴇ ɪ ᴅᴏɴ'ᴛ ʟɪᴋᴇ ꜰʟᴏᴏᴅɪɴɢ\n \nᴅᴏ ɴᴏᴛ ᴡᴀꜱᴛᴇ ᴛɪᴍᴇ ɢᴏ ᴀʜᴇᴀᴅ <b>𝐁𝐈𝐓𝐂𝐇</b>\n \n \n<b>➪ Developer : <a href="https://t.me/Anandhukuttu"> 𝓐𝓷𝓪𝓷𝓭𝓱𝓾</a></b>
+ ꜱᴏᴏʀy ᴅᴜᴅᴇ....❗️❗️\n \nɪ ᴀᴍ ᴡᴏʀᴋ ᴏɴʟʏ ꜰᴏʀ ᴍʏ ʙᴏꜱꜱ\n \n ᴅᴏ ɴᴏᴛ ꜰʟᴏᴏᴅ ᴍᴇ ɪ ᴅᴏɴ'ᴛ ʟɪᴋᴇ ꜰʟᴏᴏᴅɪɴɢ\n \nᴅᴏ ɴᴏᴛ ᴡᴀꜱᴛᴇ ᴛɪᴍᴇ ɢᴏ ᴀʜᴇᴀᴅ **𝐁𝐈𝐓𝐂𝐇**\n \n \n<b>➪ Developer : <a href="https://t.me/Anandhukuttu"> 𝓐𝓷𝓪𝓷𝓭𝓱𝓾</a></b>
 
 """
 START_MSG = environ.get('START_MSG', default_start_msg)
