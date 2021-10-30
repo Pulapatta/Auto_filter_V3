@@ -143,14 +143,14 @@ async def start(bot, message):
             )
         )
         await bot.send_photo(
-
+            
         chat_id=update.chat.id,
 
         photo=random.choice(PHOTO),
 
         caption=Commands.START_MSG.format(
 
-                update.from_user.first_name),
+                
 
         reply_markup=reply_markup,
 
