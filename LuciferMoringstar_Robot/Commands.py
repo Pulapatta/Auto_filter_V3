@@ -1,5 +1,6 @@
 import os
 import logging
+import random
 from pyrogram import Client, filters
 from pyrogram import StopPropagation
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
@@ -15,6 +16,26 @@ logger = logging.getLogger(__name__)
 LOG_CHANNEL = BROADCAST_CHANNEL
 
 db = Database(DB_URL, SESSION)
+
+PHOTO=[
+"https://telegra.ph/file/ccfc078dda80f6edf08ba.jpg",
+"https://telegra.ph/file/7109948b2131b4f7e47de.jpg",
+"https://telegra.ph/file/ec0ed4cb98c0724830ad1.jpg",
+"https://telegra.ph/file/9283f518d80bbe2e0df68.jpg",
+"https://telegra.ph/file/3903f237ac3b765931341.jpg",
+"https://telegra.ph/file/3d6ffdbc2f343167700cc.jpg",
+"https://telegra.ph/file/53615247ec9e8fa9ade5b.jpg",
+"https://telegra.ph/file/301b2ab06d3fe44f26415.jpg",
+"https://telegra.ph/file/aec63d37bec10543b4716.jpg",
+"https://telegra.ph/file/6fe46c1171bb22f808e28.jpg",
+"https://telegra.ph/file/c15b2640cf4f324029977.jpg",
+"https://telegra.ph/file/57a3dd4f4b9b1e2be785f.jpg",
+"https://telegra.ph/file/6ab9eb8b562c52b344c42.jpg",
+"https://telegra.ph/file/ddb1805d39a9900cfa7fc.jpg",
+"https://telegra.ph/file/2ef4f7f7c45dbe74e0a6c.jpg",
+"https://telegra.ph/file/e6a7b959ae96141db22b9.jpg",
+
+]
 
 @Client.on_message(filters.command("start"))
 async def start(bot, message):
@@ -120,6 +141,23 @@ async def start(bot, message):
                ]]
             )
         )
+        await bot.send_photo(
+
+        chat_id=update.chat.id,
+
+        photo=random.choice(PHOTO),
+
+        caption=START_MSG.format(
+
+                update.from_user.first_name),
+
+        reply_markup=reply_markup,
+
+        parse_mode="html",
+
+        reply_to_message_id=update.message_id
+
+    )
         StopPropagation
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
