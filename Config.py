@@ -35,9 +35,8 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Messages
 default_start_msg = """
-**Hi, I'm Auto Filter V3**
+ ꜱᴏᴏʀy ᴅᴜᴅᴇ....❗️❗️\n \nɪ ᴀᴍ ᴡᴏʀᴋ ᴏɴʟʏ ꜰᴏʀ ᴍʏ ʙᴏꜱꜱ\n \n ᴅᴏ ɴᴏᴛ ꜰʟᴏᴏᴅ ᴍᴇ ɪ ᴅᴏɴ'ᴛ ʟɪᴋᴇ ꜰʟᴏᴏᴅɪɴɢ\n \nᴅᴏ ɴᴏᴛ ᴡᴀꜱᴛᴇ ᴛɪᴍᴇ ɢᴏ ᴀʜᴇᴀᴅ <b>𝐁𝐈𝐓𝐂𝐇</b>\n \n \n<b>➪ Developer : <a href="https://t.me/Anandhukuttu"> 𝓐𝓷𝓪𝓷𝓭𝓱𝓾</a></b>
 
-Here you can search files in Inline mode as well as PM, Use the below buttons to search files or send me the name of file to search.
 """
 START_MSG = environ.get('START_MSG', default_start_msg)
 
