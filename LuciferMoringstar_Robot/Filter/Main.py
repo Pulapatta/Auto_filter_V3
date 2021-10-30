@@ -56,7 +56,7 @@ async def filter(client, message):
         mo_tech_yt = f"**🗂️ Title:** {search}\n**⭐ Rating:** {random.choice(RATING)}\n**🎭 Genre:** {random.choice(GENRES)}\n**📤 Uploaded by CINEMAHUB❤️**"
         files = await get_filter_results(query=search)
         if files:
-          btn.append(
+          buttons.append(
                 [
                     InlineKeyboardButton("🔥 𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿 𝘼𝙉𝘿 𝙀𝙉𝙅𝙊𝙔 🔥", url="https://t.me/joinchat/CsjAu7QmBa9lZDVl")
                 ]
