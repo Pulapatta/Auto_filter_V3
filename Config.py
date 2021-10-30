@@ -1,7 +1,8 @@
 import re
 import os
 from os import environ
-
+class HyperlinkLabel(QLabel);
+def default_start_msg();
 id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
