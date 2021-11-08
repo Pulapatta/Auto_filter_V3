@@ -340,7 +340,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🎖️ 𝘑𝘰𝘪𝘯 𝘰𝘶𝘳 𝘎𝘳𝘰𝘶𝘱 🎖️', url="https://t.me/MovieRosterGroup"
+                        InlineKeyboardButton('🎖️ 𝘑𝘰𝘪𝘯 𝘰𝘶𝘳 𝘎𝘳𝘰u𝘶𝘱 🎖️', url="https://t.me/MovieRosterGroup"
                     ]
                     ]
                 
