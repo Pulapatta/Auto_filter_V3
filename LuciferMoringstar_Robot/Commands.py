@@ -89,13 +89,13 @@ async def start(bot, message):
                     [
                             InlineKeyboardButton
                                 (
-                                    '🎖 Join our Group 🎖', url="https://t.me/Cinemahub182"
+                                    '🎖 Join our Group 🎖', url="https://t.me/MovieRosterGroup"
                                 )
                         ],
                         [
                             InlineKeyboardButton
                                 (
-                                    '🧩 Share Group 🧩', url="https://t.me/share/url?url=https://t.me/Cinemahub182"
+                                    '🧩 Share Group 🧩', url="https://t.me/share/url?url=https://t.me/MovieRosterGroup"
                                 )
                         ]
                     ]
@@ -127,7 +127,7 @@ async def start(bot, message):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                [[
-                       InlineKeyboardButton('💘 𝗪𝗢𝗥𝗞𝗜𝗡𝗚 𝗚𝗥𝗢𝗨𝗣 💘', url='https://t.me/Cinemahub182')
+                       InlineKeyboardButton('💘 𝗪𝗢𝗥𝗞𝗜𝗡𝗚 𝗚𝗥𝗢𝗨𝗣 💘', url='https://t.me/MovieRosterGroup')
     
                ]]
             )
