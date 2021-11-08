@@ -85,7 +85,7 @@ async def start(bot, message):
                         f_caption=f_caption
                 if f_caption is None:
                     f_caption = {files.file_name}
- ➖</b>",
+ 
                 buttons = [
                     [
                             InlineKeyboardButton
