@@ -2,9 +2,9 @@
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/DalinMathew/AutoFilterBotV3?style=social)
 <img src="https://img.shields.io/github/forks/DalinMathew/AutoFilterBotV3?style=social"></img>
-## How To Deploy Video
+ How To Deploy Video
 <a href="➖ @MovieRosterOfficial ➖"><img src="https://img.shields.io/badge/How%20To%20Deploy-blue.svg?logo=Youtube"></a> <img src="https://img.shields.io/youtube/views/5hnYOKBzyi8?style=social">
-## Subscribe Telegram Group
+# Subscribe Telegram Group
 <a href="https://t.me/MovieRosterGroup"> <img src="https://img.shields.io/youtube/channel/subscribers/UCU3Hg3qJJrIaC_0Gw7MLT1A?V?label=Subscribers&style=for-the-badge&color=red&labelColor=ce463"/> </a>
 
 #### Added Features
