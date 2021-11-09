@@ -20,7 +20,7 @@
 
 #### Deploy To Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DalinMathew/AutoFilterBotV3)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Pulapatta/Auto_filter_V3)
 
 #### Hard Way
 ```bash
@@ -72,11 +72,11 @@ Once a poster is fetched from OMDB , poster is saved to DB to reduce duplicate r
 
 ## Thanks to 
 * [Pyrogram](https://github.com/pyrogram/pyrogram)
-* [Original Repo](https://github.com/Mahesh0253/Media-Search-bot)
-* [subinps](https://github.com/subinps/Media-Search-bot)
-* [Editing Muhammed Rk](https://github.com/PR0FESS0R-99/LuciferMoringstar_Robot)
-* [Mo Tech YT](https://t.me/Mo_Tech_Group)
-* [Lucifer Morningstar](@Lucifer_Devil_AD)
+* [Original Repo](https://github.com/Pulapatta/Auto_filter_V3)
+* [subinps](https://github.com/Pulapatta/Auto_filter_V3)
+* [Editing Muhammed Rk](https://github.com/Pulapatta/Auto_filter_V3)
+* [Mo Tech YT](https://t.me/MovieRosterGroup)
+* [Lucifer Morningstar](@Rafeeq_Kunnimon)
 
 ## License
 Code released under [The GNU General Public License](LICENSE).
