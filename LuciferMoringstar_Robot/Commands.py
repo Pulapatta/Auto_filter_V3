@@ -77,20 +77,20 @@ async def start(bot, message):
                 title = files.file_name
                 size=files.file_size
                 f_caption=files.caption
-                if file_type == "document":
-        
-            await bot.send_document(
-                chat_id=update.chat.id,
-                document = file_id,
-                caption = f"<code>{file_name}</code>\n\n<b>➖ @MovieRosterOfficial ➖</b>",
-                parse_mode="html",
-                reply_to_message_id=update.message_id,
-                reply_markup=InlineKeyboardMarkup(
+                if CUSTOM_FILE_CAPTION:
+                    try:
+                        f_caption=CUSTOM_FILE_CAPTION.format(file_name=title, file_size=size, file_caption=f_caption)
+                    except Exception as e:
+                        print(e)
+                        f_caption=f_caption
+                if f_caption is None:
+                    f_caption = {files.file_name}
+ 
+                buttons = [
                     [
-                        [
                             InlineKeyboardButton
                                 (
-                                    '🎖️ 𝘑𝘰𝘪𝘯 𝘰𝘶𝘳 𝘎𝘳𝘰𝘶𝘱 🎖️', url="https://t.me/MovieRosterGroup"
+                                    '🎖 Join our Group 🎖', url="https://t.me/MovieRosterGroup"
                                 )
                         ],
                         [
@@ -100,8 +100,6 @@ async def start(bot, message):
                                 )
                         ]
                     ]
-                )
-            )
                 await bot.send_cached_media(
                     chat_id=message.from_user.id,
                     file_id=file_id,
