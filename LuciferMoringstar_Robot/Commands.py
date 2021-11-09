@@ -90,13 +90,13 @@ async def start(bot, message):
                     [
                             InlineKeyboardButton
                                 (
-                                    '🎖 Join our Group 🎖', url="https://t.me/MovieRosterGroup"
+                                    '🎖️ ᴊᴏɪɴ ᴏᴜʀ ɢʀᴏᴜᴘ 🎖️', url="https://t.me/MovieRosterGroup"
                                 )
                         ],
                         [
                             InlineKeyboardButton
                                 (
-                                    '🧩 Share Group 🧩', url="https://t.me/share/url?url=https://t.me/MovieRosterGroup"
+                                    '🧩 𝚂𝚑𝚊𝚛𝚎 𝙶𝚛𝚘𝚞𝚙 🧩', url="https://t.me/share/url?url=https://t.me/MovieRosterGroup"
                                 )
                         ]
                     ]
