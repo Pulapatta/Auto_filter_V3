@@ -375,4 +375,4 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.answer()
     else:
         
-        await query.answer("കൌതുകും ലേശം കൂടുതൽ ആണല്ലേ👀",show_alert=True)
+        await query.answer("fuck/nwhir",show_alert=True)
