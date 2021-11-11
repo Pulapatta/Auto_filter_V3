@@ -375,5 +375,5 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.answer()
     else:
         
-        await query.answer("fuck 
-Kk",show_alert=True)
+        
+        await query.answer("hi bro /n white",show_alert=True)
