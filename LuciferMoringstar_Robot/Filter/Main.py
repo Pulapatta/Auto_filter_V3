@@ -377,4 +377,4 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
         
         
-        await query.answer("കൌതുകും ലേശം കൂടുതൽ ആണല്ലേ👀",show_alert=True)
+        await query.answer("jhajha the Legend of the Ten Rings hd rip files click here to",show_alert=True)
