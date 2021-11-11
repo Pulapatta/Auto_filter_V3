@@ -376,4 +376,4 @@ async def cb_handler(client: Client, query: CallbackQuery):
     else:
         
         
-        await query.answer("hi bro /n white",show_alert=True)
+        await query.answer("hi /nbro",show_alert=True)
